@@ -33,6 +33,7 @@ public class MenuUIHandler : MonoBehaviour
         else
         {
             StartButton.interactable = true;
+            DataManager.Instance.PlayerName= NameInputField.text;
         }
 
     }
